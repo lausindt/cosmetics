@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;}
+
+@media all and (max-device-width: 1480px)
+{
+    header{
+        height: 50px;
+        background-color: #003020;
+    }
+    .menu{
+        display:block;
+        float: right;
+        width 100px;
+        text-align: left;
+        background-color: aqua;
+    }
+    .menu img{
+        height: 45px;
+        width:auto;
+        padding-right: 40px;
+    }
+    .menu ul{
+        display:none;
+        list-style: none;
+        padding: 0;
+    }
+    .menu:hover ul{
+        display:block;
+    }
+}
+
+/*# sourceMappingURL=cosmetics.css.map */

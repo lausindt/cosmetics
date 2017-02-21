@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;}
+
+@media all and (max-device-width: 1480px)
+{
+    header{
+        height: 50px;
+        background-color: #003020;
+    }
+    .menu{
+        display:block;
+        float: right;
+        width 100px;
+        text-align: left;
+        background-color: aqua;
+    }
+    .menu img{
+        height: 45px;
+        width:auto;
+    }
+    .menu ul{
+        display:block;
+        list-style: none;
+    }
+    .menu:hover ul{
+        display:block;
+    }
+}
